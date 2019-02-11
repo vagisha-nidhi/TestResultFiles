@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0ab38a14-0a5e-43bd-8335-ffde8518a9a9" name="abhishk@ABHISHK-DT 2017-11-28 14:18:21" runUser="FAREAST\abhishk" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="9b752596-bc02-4aff-84cb-9597e6e54233">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="abhishk_ABHISHK-DT 2017-11-28 14_18_21" />
+    <Properties />
+  </TestSettings>
+  <Times creation="2017-11-28T14:18:21.8687976+05:30" queuing="2017-11-28T14:18:22.9863033+05:30" start="2017-11-28T14:18:23.0873036+05:30" finish="2017-11-28T14:18:25.6429458+05:30" />
+  <ResultSummary outcome="Completed">
+    <Counters total="6" executed="6" passed="6" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CodedUITestMethod4" storage="c:\users\abhishk\source\repos\codeduitestproject12\codeduitestproject12\bin\debug\codeduitestproject12.dll" id="168590d7-62b9-0a8e-1a0e-601a99d494b1">
+      <TestCategory>
+        <TestCategoryItem TestCategory="English" />
+      </TestCategory>
+      <Execution id="c5163ce7-b028-4c76-8bdd-b3d5f41509a5" />
+      <TestMethod codeBase="C:/Users/abhishk/Source/Repos/CodedUITestProject12/CodedUITestProject12/bin/Debug/CodedUITestProject12.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CodedUITestProject12.CodedUITest1, CodedUITestProject12, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CodedUITestMethod4" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+    <UnitTest name="CodedUITestMethod5" storage="c:\users\abhishk\source\repos\codeduitestproject12\codeduitestproject12\bin\debug\codeduitestproject12.dll" id="01f75c0d-ba32-6b0c-180c-b0b4f5d8d442">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Maths" />
+      </TestCategory>
+      <Execution id="a703d282-e17b-4a36-92cc-1cdb7fb248ff" />
+      <TestMethod codeBase="C:/Users/abhishk/Source/Repos/CodedUITestProject12/CodedUITestProject12/bin/Debug/CodedUITestProject12.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CodedUITestProject12.CodedUITest1, CodedUITestProject12, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CodedUITestMethod5" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+    <UnitTest name="CodedUITestMethod1" storage="c:\users\abhishk\source\repos\codeduitestproject12\codeduitestproject12\bin\debug\codeduitestproject12.dll" id="828fdfa9-b7f1-4172-70a0-747c31eaa38a">
+      <Execution id="2bd129e4-8a8d-4df4-9ada-2088e20da359" />
+      <TestMethod codeBase="C:/Users/abhishk/Source/Repos/CodedUITestProject12/CodedUITestProject12/bin/Debug/CodedUITestProject12.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CodedUITestProject12.CodedUITest1, CodedUITestProject12, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CodedUITestMethod1" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+    <UnitTest name="CodedUITestMethod6" storage="c:\users\abhishk\source\repos\codeduitestproject12\codeduitestproject12\bin\debug\codeduitestproject12.dll" id="9de07c59-387e-11ad-a2f5-2be61057b422">
+      <TestCategory>
+        <TestCategoryItem TestCategory="English" />
+      </TestCategory>
+      <Execution id="58bbc159-5bf3-4c18-be5b-a6b6ab6bca7c" />
+      <TestMethod codeBase="C:/Users/abhishk/Source/Repos/CodedUITestProject12/CodedUITestProject12/bin/Debug/CodedUITestProject12.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CodedUITestProject12.CodedUITest1, CodedUITestProject12, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CodedUITestMethod6" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+    <UnitTest name="CodedUITestMethod3" storage="c:\users\abhishk\source\repos\codeduitestproject12\codeduitestproject12\bin\debug\codeduitestproject12.dll" id="47e16880-a8f8-7f73-f554-fefb42353bd5">
+      <TestCategory>
+        <TestCategoryItem TestCategory="Maths" />
+      </TestCategory>
+      <Execution id="2fbd7aae-e213-46ce-a96b-84a6cd998ec9" />
+      <TestMethod codeBase="C:/Users/abhishk/Source/Repos/CodedUITestProject12/CodedUITestProject12/bin/Debug/CodedUITestProject12.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CodedUITestProject12.CodedUITest1, CodedUITestProject12, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CodedUITestMethod3" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+    <UnitTest name="CodedUITestMethod2" storage="c:\users\abhishk\source\repos\codeduitestproject12\codeduitestproject12\bin\debug\codeduitestproject12.dll" id="0461ca38-47c2-7d3d-5e6f-649cf183acc4">
+      <Execution id="a0b2f189-5c38-412e-ad05-f2fd705f88c3" />
+      <TestMethod codeBase="C:/Users/abhishk/Source/Repos/CodedUITestProject12/CodedUITestProject12/bin/Debug/CodedUITestProject12.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CodedUITestProject12.CodedUITest1, CodedUITestProject12, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CodedUITestMethod2" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="828fdfa9-b7f1-4172-70a0-747c31eaa38a" executionId="2bd129e4-8a8d-4df4-9ada-2088e20da359" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0461ca38-47c2-7d3d-5e6f-649cf183acc4" executionId="a0b2f189-5c38-412e-ad05-f2fd705f88c3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="47e16880-a8f8-7f73-f554-fefb42353bd5" executionId="2fbd7aae-e213-46ce-a96b-84a6cd998ec9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="168590d7-62b9-0a8e-1a0e-601a99d494b1" executionId="c5163ce7-b028-4c76-8bdd-b3d5f41509a5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="01f75c0d-ba32-6b0c-180c-b0b4f5d8d442" executionId="a703d282-e17b-4a36-92cc-1cdb7fb248ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9de07c59-387e-11ad-a2f5-2be61057b422" executionId="58bbc159-5bf3-4c18-be5b-a6b6ab6bca7c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2bd129e4-8a8d-4df4-9ada-2088e20da359" testId="828fdfa9-b7f1-4172-70a0-747c31eaa38a" testName="CodedUITestMethod1" computerName="ABHISHK-DT" duration="00:00:00.3910665" startTime="2017-11-28T14:18:23.3218037+05:30" endTime="2017-11-28T14:18:25.1523839+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2bd129e4-8a8d-4df4-9ada-2088e20da359">
+    </UnitTestResult>
+    <UnitTestResult executionId="a0b2f189-5c38-412e-ad05-f2fd705f88c3" testId="0461ca38-47c2-7d3d-5e6f-649cf183acc4" testName="CodedUITestMethod2" computerName="ABHISHK-DT" duration="00:00:00.0656131" startTime="2017-11-28T14:18:25.1598848+05:30" endTime="2017-11-28T14:18:25.2318833+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a0b2f189-5c38-412e-ad05-f2fd705f88c3">
+    </UnitTestResult>
+    <UnitTestResult executionId="2fbd7aae-e213-46ce-a96b-84a6cd998ec9" testId="47e16880-a8f8-7f73-f554-fefb42353bd5" testName="CodedUITestMethod3" computerName="ABHISHK-DT" duration="00:00:00.0375873" startTime="2017-11-28T14:18:25.2373848+05:30" endTime="2017-11-28T14:18:25.2783906+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2fbd7aae-e213-46ce-a96b-84a6cd998ec9">
+    </UnitTestResult>
+    <UnitTestResult executionId="c5163ce7-b028-4c76-8bdd-b3d5f41509a5" testId="168590d7-62b9-0a8e-1a0e-601a99d494b1" testName="CodedUITestMethod4" computerName="ABHISHK-DT" duration="00:00:00.0326172" startTime="2017-11-28T14:18:25.2863900+05:30" endTime="2017-11-28T14:18:25.3233897+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c5163ce7-b028-4c76-8bdd-b3d5f41509a5">
+    </UnitTestResult>
+    <UnitTestResult executionId="a703d282-e17b-4a36-92cc-1cdb7fb248ff" testId="01f75c0d-ba32-6b0c-180c-b0b4f5d8d442" testName="CodedUITestMethod5" computerName="ABHISHK-DT" duration="00:00:00.0274039" startTime="2017-11-28T14:18:25.3293901+05:30" endTime="2017-11-28T14:18:25.3584020+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a703d282-e17b-4a36-92cc-1cdb7fb248ff">
+    </UnitTestResult>
+    <UnitTestResult executionId="58bbc159-5bf3-4c18-be5b-a6b6ab6bca7c" testId="9de07c59-387e-11ad-a2f5-2be61057b422" testName="CodedUITestMethod6" computerName="ABHISHK-DT" duration="00:00:00.0483936" startTime="2017-11-28T14:18:25.3654019+05:30" endTime="2017-11-28T14:18:25.4164019+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="58bbc159-5bf3-4c18-be5b-a6b6ab6bca7c">
+    </UnitTestResult>
+  </Results>
+</TestRun>

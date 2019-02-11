@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="009efaac-3ae8-494d-9121-6d4050036898" name="abhishk@ABHISHK-DT 2017-08-22 15:58:55" runUser="FAREAST\abhishk" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="42c97de7-10ac-4999-95ca-858eb00d3441">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="abhishk_ABHISHK-DT 2017-08-22 15_58_55" />
+    <Properties />
+  </TestSettings>
+  <Times creation="2017-08-22T15:58:55.3751100+05:30" queuing="2017-08-22T15:58:55.6913398+05:30" start="2017-08-22T15:58:55.7604054+05:30" finish="2017-08-22T15:58:58.1803467+05:30" />
+  <ResultSummary outcome="Completed">
+    <Counters total="6" executed="6" passed="6" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CodedUITestMethod2" storage="c:\users\abhishk\source\repos\abhishkproject\codeduitestproject2\codeduitestproject2\bin\debug\codeduitestproject2.dll" id="545fceab-936f-0a4c-9517-22832b30f002">
+      <TestMethod codeBase="c:/users/abhishk/source/repos/abhishkproject/codeduitestproject2/codeduitestproject2/bin/debug/CodedUITestProject2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CodedUITestProject2.CodedUITest1, CodedUITestProject2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CodedUITestMethod2" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+    <OrderedTest name="OrderedTest1" storage="c:\users\abhishk\source\repos\abhishkproject\codeduitestproject2\codeduitestproject2\bin\debug\orderedtest1.orderedtest" id="384226b7-06f4-411c-a9c8-79148413018a">
+      <Execution id="d6dba751-456d-4bfd-a8e5-43ffe05203a3" />
+      <TestLinks>
+        <TestLink id="893e51f9-d8eb-1c15-2ce4-3fccdd36113a" name="CodedUITestMethod1" storage="bin\debug\codeduitestproject2.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="545fceab-936f-0a4c-9517-22832b30f002" name="CodedUITestMethod2" storage="bin\debug\codeduitestproject2.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      </TestLinks>
+    </OrderedTest>
+    <UnitTest name="CodedUITestMethod1" storage="c:\users\abhishk\source\repos\abhishkproject\codeduitestproject2\codeduitestproject2\bin\debug\codeduitestproject2.dll" id="893e51f9-d8eb-1c15-2ce4-3fccdd36113a">
+      <DeploymentItems>
+        <DeploymentItem filename="data1.csv" />
+      </DeploymentItems>
+      <TestMethod codeBase="c:/users/abhishk/source/repos/abhishkproject/codeduitestproject2/codeduitestproject2/bin/debug/CodedUITestProject2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CodedUITestProject2.CodedUITest1, CodedUITestProject2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CodedUITestMethod1" />
+      <DataSource connectionString="|DataDirectory|\data1.csv" providerInvariantName="Microsoft.VisualStudio.TestTools.DataSource.CSV" tableName="data1#csv" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="384226b7-06f4-411c-a9c8-79148413018a" executionId="d6dba751-456d-4bfd-a8e5-43ffe05203a3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <TestEntries>
+        <TestEntry testId="893e51f9-d8eb-1c15-2ce4-3fccdd36113a" executionId="241c561d-1c7a-446f-969e-e0a07e266526" parentExecutionId="d6dba751-456d-4bfd-a8e5-43ffe05203a3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+        <TestEntry testId="545fceab-936f-0a4c-9517-22832b30f002" executionId="fd406d75-935e-42a4-95eb-21d983caf3e8" parentExecutionId="d6dba751-456d-4bfd-a8e5-43ffe05203a3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+      </TestEntries>
+    </TestEntry>
+  </TestEntries>
+  <Results>
+    <TestResultAggregation executionId="d6dba751-456d-4bfd-a8e5-43ffe05203a3" testId="384226b7-06f4-411c-a9c8-79148413018a" testName="OrderedTest1" computerName="ABHISHK-DT" duration="00:00:02.0757378" startTime="2017-08-22T15:58:55.8602155+05:30" endTime="2017-08-22T15:58:57.9609415+05:30" testType="ec4800e8-40e5-4ab3-8510-b8bf29b1904d" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d6dba751-456d-4bfd-a8e5-43ffe05203a3">
+      <Counters error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="5" completed="0" inProgress="0" pending="0" />
+      <InnerResults>
+        <UnitTestResult executionId="241c561d-1c7a-446f-969e-e0a07e266526" parentExecutionId="d6dba751-456d-4bfd-a8e5-43ffe05203a3" testId="893e51f9-d8eb-1c15-2ce4-3fccdd36113a" testName="CodedUITestMethod1" computerName="ABHISHK-DT" duration="00:00:00.5472870" startTime="2017-08-22T15:58:55.8762681+05:30" endTime="2017-08-22T15:58:57.9266671+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="241c561d-1c7a-446f-969e-e0a07e266526" resultType="DataDrivenTest">
+          <Output>
+          </Output>
+          <Counters error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="3" completed="0" inProgress="0" pending="0" />
+          <InnerResults>
+            <UnitTestResult executionId="1eda222f-6af9-4b82-ad28-c9466043e515" parentExecutionId="241c561d-1c7a-446f-969e-e0a07e266526" testId="893e51f9-d8eb-1c15-2ce4-3fccdd36113a" testName="CodedUITestMethod1" computerName="ABHISHK-DT" duration="00:00:00.3658456" startTime="2017-08-22T15:58:57.4966667+05:30" endTime="2017-08-22T15:58:57.8641599+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="241c561d-1c7a-446f-969e-e0a07e266526" dataRowInfo="0" resultType="DataDrivenDataRow" />
+            <UnitTestResult executionId="101e648e-e613-4a01-bec3-00b3be3b6295" parentExecutionId="241c561d-1c7a-446f-969e-e0a07e266526" testId="893e51f9-d8eb-1c15-2ce4-3fccdd36113a" testName="CodedUITestMethod1" computerName="ABHISHK-DT" duration="00:00:00.0415001" startTime="2017-08-22T15:58:57.8641599+05:30" endTime="2017-08-22T15:58:57.8954155+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="241c561d-1c7a-446f-969e-e0a07e266526" dataRowInfo="1" resultType="DataDrivenDataRow" />
+            <UnitTestResult executionId="2761fccd-b334-45ca-90e9-09fed8d18ca8" parentExecutionId="241c561d-1c7a-446f-969e-e0a07e266526" testId="893e51f9-d8eb-1c15-2ce4-3fccdd36113a" testName="CodedUITestMethod1" computerName="ABHISHK-DT" duration="00:00:00.0121611" startTime="2017-08-22T15:58:57.8954155+05:30" endTime="2017-08-22T15:58:57.9110411+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="241c561d-1c7a-446f-969e-e0a07e266526" dataRowInfo="2" resultType="DataDrivenDataRow" />
+          </InnerResults>
+        </UnitTestResult>
+        <UnitTestResult executionId="fd406d75-935e-42a4-95eb-21d983caf3e8" parentExecutionId="d6dba751-456d-4bfd-a8e5-43ffe05203a3" testId="545fceab-936f-0a4c-9517-22832b30f002" testName="CodedUITestMethod2" computerName="ABHISHK-DT" duration="00:00:00.0247335" startTime="2017-08-22T15:58:57.9266671+05:30" endTime="2017-08-22T15:58:57.9599388+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fd406d75-935e-42a4-95eb-21d983caf3e8">
+          <Output>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </TestResultAggregation>
+  </Results>
+</TestRun>
