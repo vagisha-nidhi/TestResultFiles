@@ -35,7 +35,7 @@
 			<NamedMeasurement type="text/string" name="Command Line"><Value>E:\Tools\cmake\cmake-2.8.11-rc4-win32-x86\bin\cmake.exe &quot;-DTEST_OUTPUT_DIR:PATH=E:/foo/build-vs2008-visual/_cmake/modules/testU_Logging&quot; &quot;-P&quot; &quot;E:/foo/sources/modules/testU/Logging-testU.cmake&quot;</Value></NamedMeasurement>
 			<Measurement>
 				<Value>-- TODO: implement a test if it possible
-</Value>
+				</Value>
 			</Measurement>
 		</Results>
 	</Test>
@@ -69,9 +69,10 @@
   Unknown CMake command &quot;BAR_script_write_add_to_path&quot;.
 
 
-</Value>
+				</Value>
 			</Measurement>
 		</Results>
+	</Test>
 	<Test Status="failed">
 		<Name>WGET-testU-MD5-fail</Name>
 		<Path>E_/foo/sources</Path>
@@ -85,11 +86,12 @@
 			<NamedMeasurement type="text/string" name="Command Line"><Value>E:\Tools\cmake\cmake-2.8.11-rc4-win32-x86\bin\cmake.exe &quot;-DTEST_OUTPUT_DIR:PATH=E:/foo/build-vs2008-visual/_cmake/modules/testU_WGET&quot; &quot;-P&quot; &quot;E:/foo/sources/modules/testU/WGET-testU-MD5-fail.cmake&quot;</Value></NamedMeasurement>
 			<Measurement>
 				<Value>-- Download of file://\\wsrvmov003\Softs\packages/BuildSystemTests/WGET-test-wrong-md5.txt failed with message: [37]&quot;couldn&apos;t read a file:// file&quot;
-</Value>
+				</Value>
 			</Measurement>
 		</Results>
 	</Test>
 	<EndDateTime>May 13 14:59 Romance Daylight Time</EndDateTime>
 	<EndTestTime>1368449950</EndTestTime>
-<ElapsedMinutes>0</ElapsedMinutes></Testing>
+	<ElapsedMinutes>0</ElapsedMinutes>
+</Testing>
 </Site>
