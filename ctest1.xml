@@ -9,6 +9,7 @@
 		<Test>E_/foo/sources/MD5-testU</Test>
 		<Test>E_/foo/sources/ScriptWriter-testU</Test>
 		<Test>E_/foo/sources/WGET-testU-MD5-fail</Test>
+		<Test>./app_gl_default_sb</Test>
 	</TestList>
 	<Test Status="passed">
 		<Name>FileSystem-testU</Name>
@@ -90,6 +91,30 @@
 			</Measurement>
 		</Results>
 	</Test>
+	<Test Status="notrun">
+            <Name>app_gl_default_sb</Name>
+            <Path>.</Path>
+            <FullName>./app_gl_default_sb</FullName>
+            <FullCommandLine>/usr/bin/python &quot;/var/lib/hudson/workspace/apitrace-mac-test/app_driver.py&quot;
+                &quot;--apitrace&quot; &quot;/var/lib/hudson/workspace/apitrace-mac/apitrace&quot; &quot;--apitrace-source&quot;
+                &quot;/var/lib/hudson/workspace/apitrace-mac&quot; &quot;--api&quot; &quot;gl&quot; &quot;--ref-dump&quot;
+                &quot;/var/lib/hudson/workspace/apitrace-mac-test/apps/gl/default_sb.ref.txt&quot; &quot;--&quot; &quot;/var/lib/hudson/workspace/apitrace-mac-test/apps/gl/tri&quot;
+                &quot;-sb&quot;</FullCommandLine>
+            <Results>
+                <NamedMeasurement type="text/string" name="Command Line">
+                    <Value>/usr/bin/python &quot;/var/lib/hudson/workspace/apitrace-mac-test/app_driver.py&quot; &quot;--apitrace&quot;
+                        &quot;/var/lib/hudson/workspace/apitrace-mac/apitrace&quot; &quot;--apitrace-source&quot; &quot;/var/lib/hudson/workspace/apitrace-mac&quot;
+                        &quot;--api&quot; &quot;gl&quot; &quot;--ref-dump&quot; &quot;/var/lib/hudson/workspace/apitrace-mac-test/apps/gl/default_sb.ref.txt&quot;
+                        &quot;--&quot; &quot;/var/lib/hudson/workspace/apitrace-mac-test/apps/gl/tri&quot; &quot;-sb&quot;</Value>
+                </NamedMeasurement>
+                <Measurement>
+                    <Value>Run application...
+                        DRY_RUN=yes /var/lib/hudson/workspace/apitrace-mac-test/apps/gl/tri -sb
+                        SKIP (application returned code 125)
+                    </Value>
+                </Measurement>
+            </Results>
+        </Test>
 	<EndDateTime>May 13 14:59 Romance Daylight Time</EndDateTime>
 	<EndTestTime>1368449950</EndTestTime>
 	<ElapsedMinutes>0</ElapsedMinutes>
